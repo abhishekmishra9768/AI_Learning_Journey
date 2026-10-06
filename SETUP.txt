@@ -1,4 +1,4 @@
-=== PEHLI BAAR SETUP (sirf ek baar) ===
+===  setup ===
 
 cd C:\Users\amishra\Desktop\tech-ops\AI
 python -m venv .venv
@@ -7,27 +7,10 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 pip install anthropic
 setx ANTHROPIC_API_KEY "sk-ant-..."
 
-(VS Code / PowerShell band karke dobara kholo)
+(=========Verify=======)
 
 cd C:\Users\amishra\Desktop\tech-ops\AI
 echo $env:ANTHROPIC_API_KEY
-python hello_ai.py
 
-
-=== HAR NAYE PROJECT KE LIYE ===
-(naya-project ki jagah apne project ka naam likho)
-
-cd C:\Users\amishra\Desktop\tech-ops
-mkdir naya-project
-cd naya-project
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install anthropic
-python main.py
 
 pip install sentence-transformers anthropic ----for embedding
-
-Test-Path C:\Users\amishra\.cache\huggingface
-False
-pip show sentence-transformers
- pip list
